@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: rgba(236, 240, 236, 0.74);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+    width: 650px;
+}
+
+.item {
+    margin-top:70px;
+}
+
+.col-5{
+    background: lightblue;
+}
+
+h1 {
+    padding: 20px;
+}
