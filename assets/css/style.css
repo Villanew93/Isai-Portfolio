@@ -1,29 +1,29 @@
 * {
-    padding: 0px;
-    margin: 0px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-body {
-    background: rgba(236, 240, 236, 0.74);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+.leftside , .rightside {
+    height: 50vh;
+    width: 100%;
 }
 
-img {
-    width: 650px;
+@media screen and (min-width:768px)
+{
+    .leftside , .rightside {
+        height: 100vh;
+    }
 }
 
-/* .item {
-    margin-top:70px;
-}  */
-
-.col-7 {
-  
+.leftside {
+    background-color:#121E1C;
+    color: darkkhaki;
 }
 
-.col-5{
-    background: lightblue;
+.rightside {
+    background-color:#889794;
+    color: #121E1C;
 }
 
-h1 {
-    padding: 20px;
-}
